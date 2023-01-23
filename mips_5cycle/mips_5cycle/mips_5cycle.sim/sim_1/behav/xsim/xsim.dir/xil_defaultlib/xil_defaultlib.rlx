@@ -1,0 +1,27 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/mips_5cycle/mips_5cycle.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/adder.v,1588325778,verilog,,C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/alu.v,,adder,,,,,,,,
+C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/alu.v,1588325778,verilog,,C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/aludec.v,,alu,,,,,,,,
+C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/aludec.v,1673368050,verilog,,C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/controller.v,,aludec,,,,,,,,
+C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/controller.v,1674220116,verilog,,C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/datapath.v,,controller,,,,,,,,
+C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/datapath.v,1674380306,verilog,,C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/flopenrc.v,,datapath,,,,,,,,
+C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/flopenrc.v,1674378360,verilog,,C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/flopr.v,,flopenrc,,,,,,,,
+C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/flopr.v,1674380628,verilog,,C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/floprc.v,,flopr,,,,,,,,
+C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/floprc.v,1674103282,verilog,,C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/hazard.v,,floprc,,,,,,,,
+C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/hazard.v,1674445259,verilog,,C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/instrflopFD.v,,hazard,,,,,,,,
+C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/instrflopFD.v,1674380683,verilog,,C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/maindec.v,,instrflopFD,,,,,,,,
+C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/ip/data_mem/sim/data_mem.v,1672045158,verilog,,C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/ip/inst_mem/sim/inst_mem.v,,data_mem,,,,,,,,
+C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/ip/inst_mem/sim/inst_mem.v,1672225483,verilog,,C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/adder.v,,inst_mem,,,,,,,,
+C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/maindec.v,1674379676,verilog,,C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/mips.v,,maindec,,,,,,,,
+C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/mips.v,1674380713,verilog,,C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/mux2.v,,mips,,,,,,,,
+C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/mux2.v,1588325778,verilog,,C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/mux3.v,,mux2,,,,,,,,
+C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/mux3.v,1673350949,verilog,,C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/pcff.v,,mux3,,,,,,,,
+C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/pcff.v,1674041895,verilog,,C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/regfile.v,,pcff,,,,,,,,
+C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/regfile.v,1674230568,verilog,,C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/signext.v,,regfile,,,,,,,,
+C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/signext.v,1588325778,verilog,,C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/sl2.v,,signext,,,,,,,,
+C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/sl2.v,1588325778,verilog,,C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/top.v,,sl2,,,,,,,,
+C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/top.v,1674230652,verilog,,C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/sim/testbench.v,,top,,,,,,,,
+C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/sim/testbench.v,1674231210,verilog,,,,testbench,,,,,,,,

@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Jan 23 11:32:47 2023
+# Process ID: 13156
+# Current directory: C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/mips_5cycle
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18180 C:\Users\86130\Desktop\mips_5cycle\mips_5cycle\mips_5cycle\mips_5cycle.xpr
+# Log file: C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/mips_5cycle/vivado.log
+# Journal file: C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/mips_5cycle\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/mips_5cycle/mips_5cycle.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+add_files {C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/ip/clk_wiz_0/clk_wiz_0.xci C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/adder.v C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/mux3.v C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/hazard.v C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/signext.v C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/sl2.v C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/flopenr.v C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/ip/data_mem/data_mem.xci C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/datapath.v C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/flopr.v C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/ip/inst_mem/inst_mem.xci C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/maindec.v C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/mux2.v C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/aludec.v C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/flopenrc.v C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/alu.v C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/top.v C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/regfile.v C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/floprc.v C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/instrflopFD.v C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/pcff.v C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/mips.v C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/controller.v}
+export_ip_user_files -of_objects  [get_files  {C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/ip/clk_wiz_0/clk_wiz_0.xci C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/ip/data_mem/data_mem.xci C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/ip/inst_mem/inst_mem.xci}] -lib_map_path [list {modelsim=C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/mips_5cycle/mips_5cycle.cache/compile_simlib/modelsim} {questa=C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/mips_5cycle/mips_5cycle.cache/compile_simlib/questa} {riviera=C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/mips_5cycle/mips_5cycle.cache/compile_simlib/riviera} {activehdl=C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/mips_5cycle/mips_5cycle.cache/compile_simlib/activehdl}] -force -quiet
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/adder.v] -no_script -reset -force -quiet
+remove_files  C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/adder.v
+export_ip_user_files -of_objects  [get_files C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/flopr.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/flopenrc.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/flopenr.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/datapath.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/controller.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/aludec.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/alu.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/hazard.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/floprc.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/instrflopFD.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/maindec.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/mips.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/mux2.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/pcff.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/mux3.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/regfile.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/signext.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/sl2.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/top.v] -no_script -reset -force -quiet
+remove_files  {C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/flopr.v C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/flopenrc.v C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/flopenr.v C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/datapath.v C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/controller.v C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/aludec.v C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/alu.v C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/hazard.v C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/floprc.v C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/instrflopFD.v C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/maindec.v C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/mips.v C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/mux2.v C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/pcff.v C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/mux3.v C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/regfile.v C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/signext.v C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/sl2.v C:/Users/86130/Desktop/mips_5cycle/lab_3/rtl/top.v}
+reset_run synth_2
+launch_runs synth_2 -jobs 8
+wait_on_run synth_2
+export_ip_user_files -of_objects  [get_files C:/Users/86130/Desktop/mips_5cycle/lab_3/coe/mipstest.coe] -no_script -reset -force -quiet
+remove_files  C:/Users/86130/Desktop/mips_5cycle/lab_3/coe/mipstest.coe
+export_ip_user_files -of_objects  [get_files C:/Users/86130/Desktop/mips_5cycle/lab_3/lab_3/testbench_behav.wcfg] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/86130/Desktop/mips_5cycle/lab_3/lab_3/testbench_behav.wcfg
+add_files {C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/ip/clk_wiz_0/clk_wiz_0.xci C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/ip/data_mem/data_mem.xci C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/ip/inst_mem/inst_mem.xci}
+export_ip_user_files -of_objects  [get_files  {C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/ip/clk_wiz_0/clk_wiz_0.xci C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/ip/data_mem/data_mem.xci C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/rtl/ip/inst_mem/inst_mem.xci}] -lib_map_path [list {modelsim=C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/mips_5cycle/mips_5cycle.cache/compile_simlib/modelsim} {questa=C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/mips_5cycle/mips_5cycle.cache/compile_simlib/questa} {riviera=C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/mips_5cycle/mips_5cycle.cache/compile_simlib/riviera} {activehdl=C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/mips_5cycle/mips_5cycle.cache/compile_simlib/activehdl}] -force -quiet
+reset_run synth_2
+launch_runs synth_2 -jobs 8
+wait_on_run synth_2
+launch_simulation
+source top.tcl
+export_ip_user_files -of_objects  [get_files C:/Users/86130/Desktop/mips_5cycle/lab_3/sim/testbench.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/86130/Desktop/mips_5cycle/lab_3/sim/testbench.v
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 C:/Users/86130/Desktop/mips_5cycle/mips_5cycle/sim/testbench.v
+close_sim
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source testbench.tcl
