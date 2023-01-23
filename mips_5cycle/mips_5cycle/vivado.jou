@@ -61,3 +61,4 @@ update_compile_order -fileset sim_1
 update_compile_order -fileset sim_1
 launch_simulation
 source testbench.tcl
+close_sim
